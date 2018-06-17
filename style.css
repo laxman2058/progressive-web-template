@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.clear{
+    clear: both;
+}
+/* main */
+/* desktop */
+
+    #landing{
+        position: relative;
+        text-align: center;
+        background: #3498db;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #landing img{
+        width: 300px;
+        margin: 0;
+        padding: 0;
+    }
+    #landing h1{
+        color: #fff;
+    }
+    #landing h3{
+        color: #b2bec3;
+        padding-bottom: 30px;
+    }
+    #landing .slide{
+        top: 94%;
+        position: absolute;
+        padding: 30px 0;
+        width: 1370px;
+        transform: rotate(2deg);
+        background: #3498db;  
+        border-bottom: 1px solid grey;      
+    }
+    /* about */
+    #about .aboutSide{
+        border-left: 4px solid #1abc9c;
+    }
+    #about{
+        margin-top: 35px;
+    }
+    #about a#cv{
+        background: #1abc9c;
+        color: #fff;
+        padding: 10px;
+        border-radius: 20px 0px 20px 0px;
+    }
+    #about .skills{
+        padding: 45px;
+    }
+    #about .progress{
+        height: 20px;
+        font-size: 13px;
+        margin-top: 3px;
+    }
+    #about .progress-bar{
+        background-color: #1abc9c;
+    }    
+    /* services */
+    #services{
+        margin-top: 30px;
+        position: relative;
+        background: #786fa6;
+        padding-bottom: 50px;
+    }
+    #services .container{
+        border-right: 3px solid #1abc9c;        
+    }
+    #services .slide{
+        top: -10%;
+        left: 0%;
+        position: absolute;
+        padding: 30px 0;
+        width: 1370px;
+        transform: rotate(-2deg);
+        background: #786fa6;  
+        border-top: 1px solid grey;      
+    }
+    #services h1{
+        color: #fff;
+        position: absolute;
+        right: 30px;
+    }
+    #services ul{
+        padding-top: 30px;
+        margin-left: 100px;
+    }
+    #services li{
+        text-align: center;
+        display: inline-block;
+        margin-right: 100px;
+    }
+    #services img{
+        width: 200px;
+    }
+    #services li:last-child h3{
+        margin-left: 10px;
+    }
+    #services li:nth-child(2) h3{
+        margin-left: -15px;
+    }
+    #services li:first-child h3{
+        margin-left: -5px;
+    }    
+    #services ul.toHover li h3{
+        border-radius: 0 0 30px 30px;
+        padding: 5px 20px;
+        position: absolute;
+        top: 80%;
+        color: #fff;
+        background: #000;
+        opacity: 0.5;
+        display: none;
+        font-size: 25px;
+    }
+
+    #services ul.toHover li:hover h3{
+        display: block;
+        transition: 2s ease-in-out;         
+    }
+    #services .slide1{
+        bottom: -30%;
+        left: -12%;
+        position: absolute;
+        padding: 30px 0;
+        width: 1370px;
+        transform: rotate(-2deg);
+        background: #786fa6;  
+        border-bottom: 1px solid grey;      
+    }
+/* contact */
+#contact{
+    z-index: 150;
+    margin-top: 60px;
+}
+#contact .container .row .contactSide{
+    border-left: 4px solid #1abc9c;
+}
+#contact form{
+    margin-top: 40px;
+}
+#contact input{
+    padding: 10px;
+}
+#contact input[type=text].sub{
+    width: 99%;
+}
+#contact input[type=text] {
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+#contact input[type=email] {
+    width: 48%;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+#contact textarea{
+    width: 99%;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+#contact input[type=submit]{
+    z-index: 500;
+    padding: 5px 30px;
+    background: #1abc9c;
+    border: none;
+    border-radius: 0 0 30px 30px;
+    color: white; 
+}
+/* map */
+#map{
+    position: relative;
+    margin-top: 30px;
+}
+#map iframe{
+    width: 100%;
+    height: 300px;
+}
+
+#map .slide1{
+    bottom: -5%;
+    left: 0%;
+    position: absolute;
+    padding: 40px 0;
+    width: 1370px;
+    transform: rotate(-2deg);
+    background: #fff;  
+}
+/* hobbies */
+#hobbies{
+    color: #b2bec3;
+    margin-top: -2px;
+    position: relative;
+    padding-top: 0px;
+    background: #786fa6;
+    padding-bottom: 20px;
+}
+#hobbies .container{
+    border-right: 3px solid #1abc9c;
+}
+#hobbies .bottom{
+    top: -10%;
+    left: -5%;
+    position: absolute;
+    padding: 60px 0;
+    width: 1470px;
+    transform: rotate(-2deg);
+    background: #786fa6;  
+}
+#hobbies img{
+    width: 200px;
+}
+#hobbies ul li{
+    display: inline-block;
+}
+/* footer */
+#footer{
+    background: #2c3e50;
+    padding: 50px;
+}
