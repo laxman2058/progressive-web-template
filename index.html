@@ -11,23 +11,31 @@
         <link rel="stylesheet" href="fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.css">
         <!-- fonts -->
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <!-- scroll on top -->
+        <link rel="stylesheet" href="aos-master/dist/aos.css">
+        <script src="aos-master/dist/aos.js"></script>
+        <!-- animation -->
+        <script>
+            new WOW().init();
+        </script>
         <!-- main -->
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+
         <!-- landing -->
         <div id="landing">
             <img src="images/student-icon.png" alt="">
             <h1>
                 Hello,I am Laxman Rai.
             </h1>
-            <h3>
-                Web Designer-Web Developer-Graphic Designer
-            </h3>
+            <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+
             <div class="slide"></div>
         </div>
         <!-- about -->
         <div id="about">
+                <div data-aos="fade-up">Hello</div>
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 aboutSide">
@@ -105,7 +113,7 @@
                     <div class="clear"></div>
                 </div>
             </div>
-        </div>
+        </div>        
         <!-- contact -->
         <div id="contact">
             <div class="container">
@@ -228,8 +236,30 @@
         <!-- footer -->
         <div id="footer">
             <footer>
-                
+                <ul>
+                    <li>
+                        <i class="fab fa-facebook-square"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-instagram"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-linkedin"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-github-square"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-google-plus-square"></i>
+                    </li>
+                </ul>
+                &copy;-laxman2058.All-Rights-Reserved
             </footer>
         </div>
+        <!-- extra -->
+        <!-- scroll -->
+        <a href="#0" class="cd-top js-cd-top"><i class="fas fa-arrow-alt-to-top"></i></a>
+        <script src="script.js"></script>
+
     </body>
 </html>
