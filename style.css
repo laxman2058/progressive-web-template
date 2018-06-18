@@ -99,12 +99,13 @@ ul{
         margin-left: 100px;
     }
     #services li{
+        width: 30%;
         text-align: center;
         display: inline-block;
-        margin-right: 100px;
+        margin-right: 20px;
     }
     #services img{
-        width: 200px;
+        width: 50px;
     }
     #services li:last-child h3{
         margin-left: 10px;
@@ -118,23 +119,11 @@ ul{
     #services ul.toHover li h3{
         border-radius: 0 0 30px 30px;
         padding: 5px 20px;
-        position: absolute;
-        top: 80%;
-        color: #fff;
-        background: #000;
+        color: white;
         opacity: 0.5;
-        display: none;
         font-size: 25px;
     }
-
-    #services ul.toHover li:hover h3{
-        display: block;
-        transition: 2s ease-in-out;         
-    }
     #services .slide1{
-        bottom: -30%;
-        left: -12%;
-        position: absolute;
         padding: 30px 0;
         width: 1370px;
         transform: rotate(-2deg);
