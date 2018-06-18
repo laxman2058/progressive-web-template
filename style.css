@@ -65,6 +65,7 @@ ul{
         height: 20px;
         font-size: 13px;
         margin-top: 3px;
+        margin-bottom: 10px;
     }
     #about .progress-bar{
         background-color: #1abc9c;
@@ -83,11 +84,15 @@ ul{
         top: -10%;
         left: 0%;
         position: absolute;
-        padding: 30px 0;
+        padding: 40px 0;
         width: 1370px;
         transform: rotate(-2deg);
         background: #786fa6;  
-        border-top: 1px solid grey;      
+    }
+    #services p{
+        padding: 5px;
+        text-align: justify;
+        color: white;
     }
     #services h1{
         color: #fff;
@@ -95,8 +100,8 @@ ul{
         right: 30px;
     }
     #services ul{
-        padding-top: 30px;
-        margin-left: 100px;
+        padding-top: 50px;
+        margin-left: 40px;
     }
     #services li{
         width: 30%;
@@ -105,7 +110,7 @@ ul{
         margin-right: 20px;
     }
     #services img{
-        width: 50px;
+        width: 100px;
     }
     #services li:last-child h3{
         margin-left: 10px;
@@ -123,17 +128,21 @@ ul{
         opacity: 0.5;
         font-size: 25px;
     }
+    #services ul li:hover{
+        box-shadow: 5px 5px 20px black;
+        transition: 1s ease-in-out;
+    }
     #services .slide1{
         padding: 30px 0;
         width: 1370px;
         transform: rotate(-2deg);
         background: #786fa6;  
-        border-bottom: 1px solid grey;      
     }
 /* contact */
 #contact{
     z-index: 150;
     margin-top: 60px;
+    margin-bottom: 30px;
 }
 #contact .container .row .contactSide{
     border-left: 4px solid #1abc9c;
@@ -169,6 +178,38 @@ ul{
     border: none;
     border-radius: 0 0 30px 30px;
     color: white; 
+}
+/* blog */
+#blog{
+    padding-top: 20px;
+}
+#blog li{
+    position: relative;    
+    color: grey;
+    display: block;
+}
+#blog li img{
+    display: block;
+    width: 150px;
+}
+#blog li:first-child{
+    background: #a29bfe;
+}
+#blog li:nth-child(2){
+    background: #feca57;
+}
+#blog li:last-child{
+    background: #1dd1a1;
+}
+#blog li .card{
+    background: transparent;
+    border: 0;
+    width: 500px;
+    z-index: 150;
+    position: absolute;
+    top: 8%;
+    left: 15%;
+    color: #fff;
 }
 /* map */
 #map{
